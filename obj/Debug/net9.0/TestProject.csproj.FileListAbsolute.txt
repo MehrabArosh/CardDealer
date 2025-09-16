@@ -1,0 +1,28 @@
+C:\Users\spott\CS\CSC350\CSharpProjects\TestProject\bin\Debug\net9.0\TestProject.exe
+C:\Users\spott\CS\CSC350\CSharpProjects\TestProject\bin\Debug\net9.0\TestProject.deps.json
+C:\Users\spott\CS\CSC350\CSharpProjects\TestProject\bin\Debug\net9.0\TestProject.runtimeconfig.json
+C:\Users\spott\CS\CSC350\CSharpProjects\TestProject\bin\Debug\net9.0\TestProject.dll
+C:\Users\spott\CS\CSC350\CSharpProjects\TestProject\bin\Debug\net9.0\TestProject.pdb
+C:\Users\spott\CS\CSC350\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spott\CS\CSC350\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.AssemblyInfoInputs.cache
+C:\Users\spott\CS\CSC350\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.AssemblyInfo.cs
+C:\Users\spott\CS\CSC350\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\spott\CS\CSC350\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.dll
+C:\Users\spott\CS\CSC350\CSharpProjects\TestProject\obj\Debug\net9.0\refint\TestProject.dll
+C:\Users\spott\CS\CSC350\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.pdb
+C:\Users\spott\CS\CSC350\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.genruntimeconfig.cache
+C:\Users\spott\CS\CSC350\CSharpProjects\TestProject\obj\Debug\net9.0\ref\TestProject.dll
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\bin\Debug\net9.0\TestProject.exe
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\bin\Debug\net9.0\TestProject.deps.json
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\bin\Debug\net9.0\TestProject.runtimeconfig.json
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\bin\Debug\net9.0\TestProject.dll
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\bin\Debug\net9.0\TestProject.pdb
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.AssemblyInfoInputs.cache
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.AssemblyInfo.cs
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.dll
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\refint\TestProject.dll
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.pdb
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.genruntimeconfig.cache
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\ref\TestProject.dll
