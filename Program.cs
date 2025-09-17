@@ -1,4 +1,6 @@
 ﻿using System.Dynamic;
+using Cards2;
+
 public class Dice
 {
     private int face, numSides;
@@ -18,52 +20,87 @@ public class Dice
             numSides = 6;
         }
     }
-    public void Roll()
+    public int Roll()
     {
         Random obj = new();
         face = obj.Next(1, numSides);
-    }
-    public int Face
-    {
-        get
-        {
-            return face;
-        }
+        return face;
     }
 }
+
 class Program
 {
     static void Main()
     {
-        Dice d1 = new();
-        Dice d2 = new(12);
-        Dice d3 = new(-20);
-        Dice d4 = new(0);
-        d1.Roll();
-        d2.Roll();
-        d3.Roll();
-        d4.Roll();
-        Console.WriteLine(d1.Face);
-        Console.WriteLine(d2.Face);
-        Console.WriteLine(d3.Face);
-        Console.WriteLine(d4.Face);
-        int p1 = 0, p2 = 0;
-        Dice D1 = new();
-        Dice D2 = new();
-        for (int i = 0; i < 5; i++)
+        List<Card> Player1 = new();
+        List<Card> Player2 = new();
+        List<Card> Player3 = new();
+        List<Card> Player4 = new();
+        int PlayerNum = 1, ChallengerNum = 2, CurrentRoller, NextRoller;
+        Dice dice = new();
+        while (ChallengerNum != 5)
         {
-            D1.Roll();
-            D2.Roll();
-            if (D1.Face > D2.Face)
+            CurrentRoller = dice.Roll();
+            NextRoller = dice.Roll();
+            if (CurrentRoller != NextRoller)
             {
-                p1++;
+                Console.WriteLine($"Player {PlayerNum} rolled {CurrentRoller}, Player {ChallengerNum} rolled {NextRoller}");
+                PlayerNum = (CurrentRoller > NextRoller) ? PlayerNum : ChallengerNum;
+                ChallengerNum++;
             }
             else
             {
-                p2++;
+                Console.WriteLine($"Tied Player {PlayerNum} and Player {ChallengerNum} rolled a(n) {CurrentRoller}");
             }
         }
-        Console.WriteLine((p1 > p2) ? "Dice one won more rolls" : "Dice two won more rolls");
-        Console.WriteLine(p1+"-"+p2);
+        Console.WriteLine($"Player {PlayerNum} is the dealer");
+        Deck deck = new();
+        deck.Shuffle();
+        for (int i = 0; i < 52; i++)
+        {
+            if (PlayerNum == 5)
+            {
+                PlayerNum = 1;
+            }
+            if (PlayerNum == 1)
+            {
+                Player1.Add(deck.TakeTopCard());
+            }
+            else if (PlayerNum == 2)
+            {
+                Player2.Add(deck.TakeTopCard());
+            }
+            else if (PlayerNum == 3)
+            {
+                Player3.Add(deck.TakeTopCard());
+            }
+            else
+            {
+                Player4.Add(deck.TakeTopCard());
+            }
+            PlayerNum++;
+
+        }
+        Console.WriteLine($"Player1 Card:{Player1.Count}");
+
+        for (int i = 0; i < Player1.Count; i++)
+        {
+            Console.WriteLine(Player1[i].Rank + " of " + Player1[i].Suit);
+        }
+        Console.WriteLine($"Player2 Card:{Player2.Count}");
+        for (int i = 0; i < Player2.Count; i++)
+        {
+            Console.WriteLine(Player2[i].Rank + " of " + Player2[i].Suit);
+        }
+        Console.WriteLine($"Player3 Card:{Player3.Count}");
+        for (int i = 0; i < Player3.Count; i++)
+        {
+            Console.WriteLine(Player3[i].Rank + " of " + Player3[i].Suit);
+        }
+        Console.WriteLine($"Player4 Card:{Player4.Count}");
+        for (int i = 0; i < Player4.Count; i++)
+        {
+        Console.WriteLine(Player4[i].Rank + " of " + Player4[i].Suit);
+        }
     }
 }

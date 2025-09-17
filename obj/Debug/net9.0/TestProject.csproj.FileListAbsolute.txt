@@ -26,3 +26,7 @@ C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\
 C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.pdb
 C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.genruntimeconfig.cache
 C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\ref\TestProject.dll
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\bin\Debug\net9.0\Cards2.dll
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.csproj.AssemblyReference.cache
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\TestProject.sourcelink.json
+C:\Users\spott\CS\CSC350\CSC350 HW1\CSharpProjects\TestProject\obj\Debug\net9.0\TestProj.121896E9.Up2Date
